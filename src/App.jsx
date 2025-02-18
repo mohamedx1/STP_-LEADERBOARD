@@ -5,7 +5,7 @@ export default function Leaderboard () {
   const leaderboardData = [
     {
       rank: 1,
-      player: "Lorethril",
+      player: "first",
       precision: "100%",
       recall: "96.82%",
       accuracy: "98.41%",
