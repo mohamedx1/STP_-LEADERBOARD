@@ -12,7 +12,7 @@ export default function Leaderboard () {
     },
     {
       rank: 2,
-      player: "Wandenreich",
+      player: "Secound",
       precision: "100%",
       recall: "81.90%",
       accuracy: "90.95%",
