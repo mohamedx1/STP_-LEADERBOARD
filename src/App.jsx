@@ -48,7 +48,7 @@ export default function Leaderboard () {
   ]
 
   return (
-    <div className="w-full h-full   mx-auto py-8 px-2 md:px-8  bg-[#7d032c]">
+    <div className="w-full h-max  mx-auto py-8 px-2 md:px-8  bg-[#7d032c]">
       <div className=" mx-auto p-2 md:p-8 bg-[#fdf6ed]">
         <h1 className="text-2xl font-medium text-center tracking-[0.3em] mb-8">LEADERBOARD</h1>
         <div className="rounded-lg overflow-hidden ">
