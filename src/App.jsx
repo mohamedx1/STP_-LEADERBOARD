@@ -7,44 +7,44 @@ export default function Leaderboard () {
     {
       rank: 1,
       player: "first",
-      precision: "100%",
-      recall: "96.82%",
-      accuracy: "98.41%",
+      Similarity: "100%",
+      CER: "96.82%",
+      WER: "98.41%",
     },
     {
       rank: 2,
       player: "Secound",
-      precision: "100%",
-      recall: "81.90%",
-      accuracy: "90.95%",
+      Similarity: "100%",
+      CER: "81.90%",
+      WER: "90.95%",
     },
     {
       rank: 3,
       player: "Pixels",
-      precision: "100%",
-      recall: "33.33%",
-      accuracy: "66.66%",
+      Similarity: "100%",
+      CER: "33.33%",
+      WER: "66.66%",
     },
     {
       rank: 4,
       player: "Hocus Focus",
-      precision: "100%",
-      recall: "25.39%",
-      accuracy: "62.69%",
+      Similarity: "100%",
+      CER: "25.39%",
+      WER: "62.69%",
     },
     {
       rank: 5,
       player: "the riddles",
-      precision: "40%",
-      recall: "28.57%",
-      accuracy: "24.60%",
+      Similarity: "40%",
+      CER: "28.57%",
+      WER: "24.60%",
     },
     {
       rank: 6,
       player: "Bit Code",
-      precision: "0%",
-      recall: "0%",
-      accuracy: "50%",
+      Similarity: "0%",
+      CER: "0%",
+      WER: "50%",
     },
   ]
 
@@ -57,9 +57,9 @@ export default function Leaderboard () {
           <div className="grid grid-cols-5 text-sm font-medium bg-[#e9dfd4] px-4 py-7">
             <div>Rank</div>
             <div>Player</div>
-            <div className="text-right">Precision</div>
-            <div className="text-right">Recall</div>
-            <div className="text-right">Accuracy</div>
+            <div className="text-right">Similarity</div>
+            <div className="text-right">CER</div>
+            <div className="text-right">WER</div>
           </div>
           {leaderboardData.map((item, index) => (
             <div
@@ -68,9 +68,9 @@ export default function Leaderboard () {
             >
               <div >{item.rank} </div>
               <div className='flex relative'>{item.player} {index === 0 ? <Crown className='text-amber-300 absolute -top-5 -left-4 -rotate-18 ' /> : ""}</div>
-              <div className="text-right">{item.precision}</div>
-              <div className="text-right">{item.recall}</div>
-              <div className="text-right">{item.accuracy}</div>
+              <div className="text-right">{item.Similarity}</div>
+              <div className="text-right">{item.CER}</div>
+              <div className="text-right">{item.WER}</div>
             </div>
           ))}
         </div>
