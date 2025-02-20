@@ -75,7 +75,7 @@ export default function Leaderboard () {
             >
               <div >{item.rank} </div>
               <div className='flex relative'>{item.player} {index === 0 ? <Crown className='text-amber-300 absolute -top-5 -left-4 -rotate-18 ' /> : ""}</div>
-              <div className="text-right">{item.precision}</div>
+              <div className="text-right">{item.Similarity}</div>
               <div className="text-right">{item.recall}</div>
               <div className="text-right">{item.accuracy}</div>
             </div>
