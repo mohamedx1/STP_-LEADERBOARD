@@ -25,34 +25,7 @@ export default function Leaderboard () {
       CER: "80 %",
       WER: "65 %",
     },
-    {
-      rank: 4,
-      player: "Fourth",
-      Similarity: "_",
-      CER: "_",
-      WER: "_",
-    },
-    {
-      rank: 5,
-      player: "Fifth",
-      Similarity: "_",
-      CER: "_",
-      WER: "_",
-    },
-    {
-      rank: 6,
-      player: "Sixth",
-      Similarity: "_",
-      CER: "_",
-      WER: "_",
-    },
-    {
-     rank: 7,
-     player: "seventh",
-     Similarity: "_",
-     CER: "_",
-     WER: "_",
-    }
+
   ]
 
   return (
