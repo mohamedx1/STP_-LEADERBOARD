@@ -13,7 +13,7 @@ export default function Leaderboard () {
     },
     {
       rank: 2,
-      player: "MediHackers",
+      player: "Medi Hackers",
       Similarity: "36.2 %",
       CER: "70 %",
       WER: "60 %",
