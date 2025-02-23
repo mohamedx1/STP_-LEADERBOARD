@@ -28,7 +28,7 @@ export default function Leaderboard () {
     {
       rank: 4,
       player: "Crispy",
-      Similarity: "33.61 %",
+      Similarity: "26 %",
       CER: "81.38 %",
       WER: "59.97 %",
     },
