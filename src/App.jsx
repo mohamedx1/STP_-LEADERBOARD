@@ -20,13 +20,21 @@ export default function Leaderboard () {
     },
     {
       rank: 3,
+      player: "illLMs",
+      Similarity: "33.33 %",
+      CER: "68.22 %",
+      WER: "63.1 %",
+      
+    },
+    {
+      rank: 4,
       player: "AI Warriors",
       Similarity: "27.6 %",
       CER: "80 %",
       WER: "65 %",
     },
     {
-      rank: 4,
+      rank: 5,
       player: "Crispy",
       Similarity: "26 %",
       CER: "81.38 %",
