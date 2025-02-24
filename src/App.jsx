@@ -9,14 +9,14 @@ export default function Leaderboard () {
       player: "Rx Innovators",
       Similarity: "44.7 %",
       CER: "60 %",
-      WER: "55 %",
+      WER: "44.3 %",
     },
     {
       rank: 2,
       player: "Medi Hackers",
       Similarity: "36.2 %",
       CER: "70 %",
-      WER: "60 %",
+      WER: "49.3 %",
     },
     {
       rank: 3,
@@ -30,7 +30,7 @@ export default function Leaderboard () {
       player: "Crispy",
       Similarity: "26 %",
       CER: "81.38 %",
-      WER: "59.97 %",
+      WER: "54.7 %",
     },
 
   ]
