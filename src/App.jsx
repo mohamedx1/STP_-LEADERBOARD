@@ -28,13 +28,20 @@ export default function Leaderboard () {
     },
     {
       rank: 4,
+      player: "CuraBotics",
+      Similarity: "30.3 %",
+      CER: "73.2 %",
+      WER: "61.6 %",
+    },
+    {
+      rank: 5,
       player: "AI Warriors",
       Similarity: "27.6 %",
       CER: "80 %",
       WER: "65 %",
     },
     {
-      rank: 5,
+      rank: 6,
       player: "Crispy",
       Similarity: "26 %",
       CER: "81.38 %",
