@@ -4,29 +4,35 @@ import Logo from './assets/LOGO.png'
 export default function Leaderboard () {
 
   const leaderboardData = [
+    {rank: 1,
+      player: "DoseMate",
+      Similarity: "59.1 %",
+      CER: "39.6 %",
+      WER: "41.5 %",},
+    
     {
-      rank: 1,
+      rank: 2,
       player: "Crispy",
       Similarity: "50 %",
       CER: "63.57 %",
       WER: "44.41 %",
     },
     {
-      rank: 2,
+      rank: 3,
       player: "Rx Innovators",
       Similarity: "44.7 %",
       CER: "60 %",
       WER: "44.3 %",
     },
     {
-      rank: 3,
+      rank: 4,
       player: "Medi Hackers",
       Similarity: "36.2 %",
       CER: "70 %",
       WER: "49.3 %",
     },
     {
-      rank: 4,
+      rank: 5,
       player: "illLMs",
       Similarity: "33.3 %",
       CER: "68.2 %",
@@ -34,14 +40,14 @@ export default function Leaderboard () {
       
     },
     {
-      rank: 5,
+      rank: 6,
       player: "CuraBotics",
       Similarity: "30.3 %",
       CER: "73.2 %",
       WER: "61.6 %",
     },
     {
-      rank: 6,
+      rank: 7,
       player: "AI Warriors",
       Similarity: "27.6 %",
       CER: "80 %",
