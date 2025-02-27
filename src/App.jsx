@@ -42,9 +42,9 @@ export default function Leaderboard () {
     {
       rank: 6,
       player: "CuraBotics",
-      Similarity: "30.3 %",
-      CER: "73.2 %",
-      WER: "61.6 %",
+      Similarity: "32.2 %",
+      CER: "71.2 %",
+      WER: "59.8 %",
     },
     {
       rank: 7,
