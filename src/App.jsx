@@ -6,52 +6,21 @@ export default function Leaderboard () {
   const leaderboardData = [
     {rank: 1,
       player: "DoseMate",
-      F1_Score: "59.8 %",
-      CER: "39.6 %",
-      WER: "41.5 %",},
-    
+      F1_Score: "24.8 %",
     {
       rank: 2,
-      player: "Crispy",
-      F1_Score: "50 %",
-      CER: "63.57 %",
-      WER: "44.41 %",
+      player: "Rx Innovators",
+      F1_Score: "20.1 %",
     },
     {
       rank: 3,
-      player: "Rx Innovators",
-      F1_Score: "44.7 %",
-      CER: "60 %",
-      WER: "44.3 %",
+      player: "Medi Hackers",
+      F1_Score: "19.4 %",
     },
     {
       rank: 4,
-      player: "Medi Hackers",
-      F1_Score: "36.2 %",
-      CER: "70 %",
-      WER: "49.3 %",
-    },
-    {
-      rank: 5,
-      player: "illLMs",
-      F1_Score: "33.3 %",
-      CER: "68.2 %",
-      WER: "63.1 %",
-      
-    },
-    {
-      rank: 6,
-      player: "CuraBotics",
-      F1_Score: "32.2 %",
-      CER: "71.2 %",
-      WER: "59.8 %",
-    },
-    {
-      rank: 7,
       player: "AI Warriors",
-      F1_Score: "27.6 %",
-      CER: "80 %",
-      WER: "65 %",
+      F1_Score: "115 %",
     },
 
   ]
@@ -66,8 +35,8 @@ export default function Leaderboard () {
             <div>Rank</div>
             <div>Player</div>
             <div className="text-right">F1_Score</div>
-            <div className="text-right">CER</div>
-            <div className="text-right">WER</div>
+{/*             <div className="text-right">CER</div>
+            <div className="text-right">WER</div> */}
           </div>
           {leaderboardData.map((item, index) => (
             <div
@@ -77,8 +46,8 @@ export default function Leaderboard () {
               <div >{item.rank} </div>
               <div className='flex relative'>{item.player} {index === 0 ? <Crown className='text-amber-300 absolute -top-5 -left-4 -rotate-18 ' /> : ""}</div>
               <div className="text-right">{item. F1_Score}</div>
-              <div className="text-right">{item.CER}</div>
-              <div className="text-right">{item.WER}</div>
+{/*               <div className="text-right">{item.CER}</div>
+              <div className="text-right">{item.WER}</div> */}
             </div>
           ))}
         </div>
