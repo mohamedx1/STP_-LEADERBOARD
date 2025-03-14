@@ -7,6 +7,7 @@ export default function Leaderboard () {
     {rank: 1,
       player: "DoseMate",
       F1_Score: "24.8 %",
+    },
     {
       rank: 2,
       player: "Rx Innovators",
