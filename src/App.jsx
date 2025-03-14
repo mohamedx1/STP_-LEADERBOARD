@@ -21,7 +21,7 @@ export default function Leaderboard () {
     {
       rank: 4,
       player: "AI Warriors",
-      F1_Score: "115 %",
+      F1_Score: "11.5 %",
     },
 
   ]
