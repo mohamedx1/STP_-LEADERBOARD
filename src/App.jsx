@@ -65,7 +65,7 @@ export default function Leaderboard () {
           <div className="grid grid-cols-5 text-sm font-medium bg-[#e9dfd4] px-4 py-7">
             <div>Rank</div>
             <div>Player</div>
-            <div className="text-right">Similarity</div>
+            <div className="text-right">F1_Score</div>
             <div className="text-right">CER</div>
             <div className="text-right">WER</div>
           </div>
