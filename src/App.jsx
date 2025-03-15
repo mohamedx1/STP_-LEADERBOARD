@@ -15,14 +15,20 @@ export default function Leaderboard () {
     },
     {
       rank: 3,
+      player: "Crispy",
+      F1_Score: "19.5 %",
+    },
+    {
+      rank: 4,
       player: "Medi Hackers",
       F1_Score: "19.4 %",
     },
-    {
+        {
       rank: 4,
       player: "AI Warriors",
       F1_Score: "11.5 %",
     },
+
 
   ]
 
