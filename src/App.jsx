@@ -11,7 +11,7 @@ export default function Leaderboard () {
     {
       rank: 2,
       player: "Rx Innovators",
-      F1_Score: "20.1 %",
+      F1_Score: "20.5 %",
     },
     {
       rank: 3,
@@ -36,12 +36,12 @@ export default function Leaderboard () {
        {
       rank: 7
       player: "Matrix",
-      F1_Score: "__",
+      F1_Score: "-%",
     },
          {
       rank: 8,
       player: "Illms",
-      F1_Score: " __",
+      F1_Score: " -%",
     },
 
 
