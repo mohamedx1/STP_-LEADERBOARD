@@ -6,43 +6,29 @@ export default function Leaderboard () {
   const leaderboardData = [
     {rank: 1,
       player: "DoseMate",
-      F1_Score: "28 %",
+      F1_Score: "__%",
     },
     {
       rank: 2,
-      player: "Rx Innovators",
-      F1_Score: "20.5 %",
+      player: "Matrix",
+      F1_Score: "__ %",
     },
     {
       rank: 3,
       player: "Crispy",
-      F1_Score: "19.5 %",
+      F1_Score: "__%",
     },
     {
       rank: 4,
-      player: "Medi Hackers",
-      F1_Score: "19.4 %",
+      player: "CuraBotics",
+      F1_Score: "__%",
     },
         {
       rank: 5,
-      player: "AI Warriors",
-      F1_Score: "11.5 %",
+      player: "illLms",
+      F1_Score: "__%",
     },
-       {
-      rank: 6,
-      player: "CuraBotics",
-      F1_Score: "3.2 %",
-    },
-       {
-      rank: 7
-      player: "Matrix",
-      F1_Score: "-%",
-    },
-         {
-      rank: 8,
-      player: "Illms",
-      F1_Score: " -%",
-    },
+
 
 
   ]
