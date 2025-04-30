@@ -10,12 +10,12 @@ export default function Leaderboard () {
     },
     {
       rank: 2,
-      player: "Matrix",
-      F1_Score: "__ %",
+      player: "Crispy",
+      F1_Score: "37.86%",
     },
     {
       rank: 3,
-      player: "Crispy",
+      player: "Matrix",
       F1_Score: "__%",
     },
     {
