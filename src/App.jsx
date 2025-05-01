@@ -16,7 +16,7 @@ export default function Leaderboard () {
     {
       rank: 3,
       player: "Crispy",
-      F1_Score: "37.86%",
+      F1_Score: "38.99%",
     },
     {
       rank: 4,
