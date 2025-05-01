@@ -5,18 +5,18 @@ export default function Leaderboard () {
 
   const leaderboardData = [
     {rank: 1,
+      player: "Matrix",
+      F1_Score: "49.55%",
+    },
+    {
+      rank: 2,
       player: "DoseMate",
       F1_Score: "44.31%",
     },
     {
-      rank: 2,
+      rank: 3,
       player: "Crispy",
       F1_Score: "37.86%",
-    },
-    {
-      rank: 3,
-      player: "Matrix",
-      F1_Score: "__%",
     },
     {
       rank: 4,
