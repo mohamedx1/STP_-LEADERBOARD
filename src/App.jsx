@@ -6,7 +6,7 @@ export default function Leaderboard () {
   const leaderboardData = [
     {rank: 1,
       player: "Matrix",
-      F1_Score: "54.57%",
+      F1_Score: "61.15%",
     },
     {
       rank: 2,
