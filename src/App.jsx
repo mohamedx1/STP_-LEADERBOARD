@@ -21,12 +21,7 @@ export default function Leaderboard () {
     {
       rank: 4,
       player: "CuraBotics",
-      F1_Score: "__%",
-    },
-        {
-      rank: 5,
-      player: "illLms",
-      F1_Score: "__%",
+      F1_Score: "32.1%",
     },
 
 
